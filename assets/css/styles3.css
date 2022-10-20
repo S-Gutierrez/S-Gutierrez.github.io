@@ -149,13 +149,16 @@ h6 {
   #header h1 {
     font-size: 36px;
   }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
   }
+
   #header .social-links {
     margin-top: 15px;
   }
+
   #header .container {
     display: flex;
     flex-direction: column;
@@ -178,7 +181,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu li + li {
+.nav-menu li+li {
   margin-left: 30px;
 }
 
@@ -205,15 +208,15 @@ h6 {
 }
 
 .nav-menu a:hover:before,
-.nav-menu li:hover > a:before,
-.nav-menu .active > a:before {
+.nav-menu li:hover>a:before,
+.nav-menu .active>a:before {
   visibility: visible;
   width: 25px;
 }
 
 .nav-menu a:hover,
-.nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu .active>a,
+.nav-menu li:hover>a {
   color: var(--dark-green);
   text-decoration: none;
 }
@@ -271,8 +274,8 @@ h6 {
 }
 
 .mobile-nav a:hover,
-.mobile-nav .active > a,
-.mobile-nav li:hover > a {
+.mobile-nav .active>a,
+.mobile-nav li:hover>a {
   color: var(--light-pink);
   text-decoration: none;
 }
@@ -336,6 +339,7 @@ h6 {
   #header.header-top {
     height: 60px;
   }
+
   #header.header-top h1 {
     font-size: 26px;
   }
@@ -370,6 +374,7 @@ section .container {
   section {
     top: 120px;
   }
+
   section.section-show {
     top: 80px;
   }
@@ -1099,6 +1104,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1108,6 +1114,7 @@ section .container {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1146,4 +1153,23 @@ section .container {
 .img-responsive {
   width: 100%;
   height: 237px;
+}
+
+
+.imgtextblock {
+  width: 100%;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.imgtextblock img {
+  margin-right: 15px;
+  float: left;
+}
+
+.imgtextblock h4,
+.imgtextblock h5 {
+  margin-left: 15px;
+  display: block;
+  margin: 2px 0 0 0;
 }
