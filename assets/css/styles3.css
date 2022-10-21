@@ -28,6 +28,7 @@
   --golden-yellow: #9e7f25;
   /* --dark-blue: #e7e9f0; */
   --dark-blue: #d7d9e2;
+  --light-blue: #5aaac5;
 }
 
 body {
@@ -267,7 +268,7 @@ h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: var(--cool-blue);
+  color: var(--light-blue);
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -1163,13 +1164,12 @@ section .container {
 }
 
 .imgtextblock img {
-  margin-right: 15px;
+  margin-right: 0.8vw;
   float: left;
 }
 
 .imgtextblock h4,
 .imgtextblock h5 {
-  margin-left: 15px;
   display: block;
-  margin: 2px 0 0 0;
+  margin: 0.1vw 0 0 0;
 }
