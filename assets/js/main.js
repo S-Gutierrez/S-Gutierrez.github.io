@@ -9,10 +9,12 @@
 
   // Nav Menu
   // shows image alt
-  $("#images img").on("click", function () {
+  $("#images1 img").on("click", function () {
     $("#show-text").text($(this).attr("alt"));
   });
-
+  $("#images2 img").on("click", function () {
+    $("#show-text").text($(this).attr("alt"));
+  });
 
   $(document).on('click', '.nav-menu a, .mobile-nav a', function (e) {
     if (
