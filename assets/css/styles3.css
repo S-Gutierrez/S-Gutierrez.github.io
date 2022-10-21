@@ -28,7 +28,7 @@
   --golden-yellow: #9e7f25;
   /* --dark-blue: #e7e9f0; */
   --dark-blue: #d7d9e2;
-  --light-blue: #5aaac5;
+  --light-blue: #83cee7;
 }
 
 body {
@@ -218,7 +218,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-  color: var(--dark-green);
+  color: var(--light-blue);
   text-decoration: none;
 }
 
@@ -782,11 +782,11 @@ section .container {
 
 .portfolio #portfolio-flters {
   padding: 0;
-  margin: 0 auto 15px auto;
+  margin: 0 auto 0px auto;
   list-style: none;
-  text-align: center;
+  text-align: left;
   border-radius: 50px;
-  padding: 2px 15px;
+  padding: 0px 15px;
 }
 
 .portfolio #portfolio-flters li {
@@ -847,7 +847,7 @@ section .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 
 .portfolio .portfolio-wrap .portfolio-info::before {
@@ -1172,4 +1172,10 @@ section .container {
 .imgtextblock h5 {
   display: block;
   margin: 0.1vw 0 0 0;
+}
+
+
+.filterblock {
+  width: 100%;
+  padding: 20px;
 }

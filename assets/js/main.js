@@ -8,10 +8,16 @@
   'use strict';
 
   // Nav Menu
+  // shows image alt
+  $("#images img").on("click", function () {
+    $("#show-text").text($(this).attr("alt"));
+  });
+
+
   $(document).on('click', '.nav-menu a, .mobile-nav a', function (e) {
     if (
       location.pathname.replace(/^\//, '') ==
-        this.pathname.replace(/^\//, '') &&
+      this.pathname.replace(/^\//, '') &&
       location.hostname == this.hostname
     ) {
       var hash = this.hash;
@@ -175,3 +181,6 @@
     $('.venobox').venobox();
   });
 })(jQuery);
+
+
+
