@@ -1,0 +1,11 @@
+.w-two-thirds-l {
+    width: 100%;
+}
+
+.measure-wide {
+    max-width: 75em;
+}
+
+.nested-img img {
+    display:inline;
+}

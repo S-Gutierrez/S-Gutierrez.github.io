@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDA Project - Taxi Dataset</title>
+    <link>https://peterwright95.github.io/SDA/</link>
+    <description>Recent content on SDA Project - Taxi Dataset</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 May 2021 15:00:59 -0400</lastBuildDate><atom:link href="https://peterwright95.github.io/SDA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Study of the Taxi Trip Dataset</title>
+      <link>https://peterwright95.github.io/SDA/posts/analysis-of-taxi-data/</link>
+      <pubDate>Thu, 13 May 2021 15:00:59 -0400</pubDate>
+      
+      <guid>https://peterwright95.github.io/SDA/posts/analysis-of-taxi-data/</guid>
+      <description>Through-out this article we will be analysing trends in taxi usage in New York City. We will see how usage changes during the day-month-year, so get pen and paper ready as, believe me, you don&amp;rsquo;t want to get stuck in NYC traffic!
+ The working day in New York starts at 8:24 on average, we can infer from the taxi hourly distribution that the city wakes up at around 7:00 and keeps busy through-out the day until around 21:00-22:00 when taxi demand starts to decrease.</description>
+    </item>
+    
+    <item>
+      <title>Comparison Between Uber and Taxis</title>
+      <link>https://peterwright95.github.io/SDA/posts/comparison-with-uber/</link>
+      <pubDate>Thu, 13 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://peterwright95.github.io/SDA/posts/comparison-with-uber/</guid>
+      <description>There has been debate about the different ride-hailing methods in New York, since Uber arrived to the city. One of the most critical topics regarded traffic congestion in the city. That concluded in a case study carried out by the NYC Taxi &amp;amp; Limousine Commission (TLC). Thanks to FiveThirtyEight and their request regarding the law of Freedom of Information, the Uber data used for the study became public. In doing this, they gave us the opportunity to compare NYC taxis with respect to Uber and highlight the underlying differences between these two similar but different transport methods.</description>
+    </item>
+    
+    <item>
+      <title>Taxis during the Covid Pandemic</title>
+      <link>https://peterwright95.github.io/SDA/posts/study-of-covid-impact/</link>
+      <pubDate>Thu, 13 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://peterwright95.github.io/SDA/posts/study-of-covid-impact/</guid>
+      <description>COVID-19 has been the greatest sanitary crisis of our era and the biggest source of scepticism towards public transport. While it is uncertain when the disease reached United States population for the first time, it was clear that it was already spreading in the very first weeks of March 2020. On March 1st, the first case of COVID-19 in New York City was confirmed. Two weeks later, on March 12th all gatherings of more than 500 people were shut down and from this day schools and workplaces followed.</description>
+    </item>
+    
+  </channel>
+</rss>
