@@ -472,8 +472,44 @@
     <div class="container">
       <div class="section-title">
         <h2>Projects (In construction)</h2>
-        <h3>I am in the process of recopilation and cleaning my projects. Right now my github can be considered a junk
-          drawer. Sorry for the inconvenience</h3>
+        <html>
+
+        <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+            .alert {
+              padding: 20px;
+              background-color: #f5c874;
+              color: rgb(0, 0, 0);
+            }
+
+            .closebtn {
+              margin-left: 15px;
+              color: rgb(0, 0, 0);
+              font-weight: bold;
+              float: right;
+              font-size: 22px;
+              line-height: 20px;
+              cursor: pointer;
+              transition: 0.3s;
+            }
+
+            .closebtn:hover {
+              color: black;
+            }
+          </style>
+        </head>
+
+        <body>
+          <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <strong>Notification:</strong> I am in the process of cleaning and recopilation of my projects. Sorry for
+            the inconvenience.
+          </div>
+
+        </body>
+
+        </html>
       </div>
       <div class="filterblock">
         <div class="row">
@@ -489,7 +525,7 @@
               <li data-filter="*" class="filter-active">All languages</li>
               <li data-filter=".filter-python">Python</li>
               <li data-filter=".filter-R">R</li>
-              <li data-filter=".filter-html">html/css/jss</li>
+              <li data-filter=".filter-html">html/css/js</li>
             </ul>
           </div>
         </div>
